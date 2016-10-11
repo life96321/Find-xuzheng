@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/zhaocha.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	</head>
+	<body>
+		<!--坑爹的片头介绍-->
+		<div class="wrap_one">
+			<!--三个小星球-->
+			<div class="xingqiu">
+				<img src="img/star2.png" class="star2"/>
+				<img src="img/star3.png" class="star3"/>
+				<img src="img/star4.png" class="star4"/>
+				<img src="img/star5.png" class="star5"/>
+				<img src="img/star5.png" class="star5-2"/>
+			</div>
+			<img src="img/music_o.png" id="music"/>
+			<div class="txt">
+				<!--文字-->
+				<p class="js1">公元9025年</p>
+				<p class="js1">外星人为了争夺</p>
+				<p class="js1">封印在vivo手机中的神秘能量</p>
+				<p class="js1">发起宇宙战乱</p>
+				<p class="js1">超人徐峥为了保卫神秘能量</p>
+				<p class="js1">带着手机来到浩瀚宇宙中</p>
+				<p class="js1">分身成为8个自己</p>
+				<p class="js1">分别保卫8块手机碎片</p>
+				<p class="js1">消失在太阳系的八大行星中</p>
+				<p class="js1">据说找齐徐峥的8个分身</p>
+				<p class="js1">就能启动神秘能量保护地球</p>
+				<p class="js1">...</p>
+			</div>
+			<!--徐峥超人-->
+			<div class="xz">
+				<div class="tou">
+					<img src="img/super_glasses.png" id="yanjing"/>
+					<img src="img/super_head.png" id="xztou"/>
+				</div>
+				<img src="img/super_body1.png" id="super1"/>
+				<img src="img/super_body2.png" id="super2"/>
+				<img src="img/super_body3.png" id="super3"/>
+			</div>
+			<!--徐峥超人2-->
+			<div class="xz2">
+				<div class="tou">
+					<img src="img/super_glasses.png" id="yanjing"/>
+					<img src="img/super_head.png" id="xztou"/>
+				</div>
+				<img src="img/super_body1.png" id="super1"/>
+				<img src="img/super_body2.png" id="super2"/>
+				<img src="img/super_body3.png" id="super3"/>
+			</div>
+			<!--vivo手机-->
+			<div class="vivophone">
+				<img src="img/phone.png" id="mob1"/>
+				<div class="vivop_1">
+					<div id="c1">
+						<img src="img/chip1.png"/>
+						<img src="img/super_head.png" id="c1-1"/>
+					</div>
+					<div id="c2">
+						<img src="img/chip2.png"/>
+						<img src="img/super_head.png" id="c2-1"/>
+					</div>
+					<div id="c3">
+						<img src="img/chip3.png"/>
+						<img src="img/super_head.png" id="c3-1"/>
+					</div>
+					<div id="c4">
+						<img src="img/chip4.png"/>
+						<img src="img/super_head.png" id="c4-1"/>
+					</div>
+					<div id="c5">
+						<img src="img/chip5.png"/>
+						<img src="img/super_head.png" id="c5-1"/>
+					</div>
+					<div id="c6">
+						<img src="img/chip6.png"/>
+						<img src="img/super_head.png" id="c6-1"/>
+					</div>
+					<div id="c7">
+						<img src="img/chip7.png"/>
+						<img src="img/super_head.png" id="c7-1"/>
+					</div>
+					<div id="c8">
+						<img src="img/chip8.png"/>
+						<img src="img/super_head.png" id="c8-1"/>
+					</div>
+				</div>
+			</div>
+			<!--坑爹的八个行星-->
+			<div class="xingxing">
+				<img src="img/star10.png" id="st10"/>
+				<img src="img/star11.png" id="st11"/>
+				<img src="img/star4.png" id="st4"/>
+				<img src="img/star5.png" id="st5"/>
+				<img src="img/star6.png" id="st6"/>
+				<img src="img/star7.png" id="st7"/>
+				<img src="img/star8.png" id="st8"/>
+				<img src="img/star9.png" id="st9"/>
+				<div class="txt-bottom">
+					<p>找齐徐峥启动能量</p>
+					<img src="img/up.png"/>
+				</div>
+			</div>
+		</div>
+<!-------------------------------------------游戏界面----- -------------------------------------------->
+		<div class="playgame">
+<!-----------------------------------------第一关--------------------------------------------->
+			<div class="first">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第一关 水星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">		
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="d1">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d1-1">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo1">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得1/8碎片</p>
+				<img src="img/suipian_one.png" class="bingo-xz"/>
+				<p class="bingo1-p2">像初恋一样手感的<br />双2.5D弧面玻璃</p>
+			</div>
+<!-----------------------------------------第二关--------------------------------------------->
+			<div class="second" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第二关 金星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="d2">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d2-1">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo2">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得2/8碎片</p>
+				<img src="img/suipian_two.png" class="bingo-xz"/>
+				<p class="bingo1-p2">帮助你防火防盗<br />防女友的眼球识别加密系统</p>
+			</div>
+<!-----------------------------------------第三关--------------------------------------------->
+			<div class="third" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第三关 地球</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="d3">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d3-1">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo3">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得3/8碎片</p>
+				<img src="img/suipian_three.png" class="bingo-xz"/>
+				<p class="bingo1-p2">帮你省下单反钱的<br />1300万像素摄像头</p>
+			</div>
+<!-----------------------------------------第四关--------------------------------------------->
+			<div class="fourth" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第四关  火星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="d4">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d4-1">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo4">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得4/8碎片</p>
+				<img src="img/suipian_four.png" class="bingo-xz"/>
+				<p class="bingo1-p2">促进多巴胺分泌的<br />Hi-Fi音质耳放</p>
+			</div>
+<!-----------------------------------------第五关--------------------------------------------->
+			<div class="fifth" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第五关  土星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="h5">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d5">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo5">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得5/8碎片</p>
+				<img src="img/suipian_five.png" class="bingo-xz"/>
+				<p class="bingo1-p2">可以自动区分女汉子和男妹子<br />的<br />知性美颜系统</p>
+			</div>
+<!-----------------------------------------第六关--------------------------------------------->
+			<div class="sixth" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第六关  木星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="h6">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d6">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo6">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得6/8碎片</p>
+				<img src="img/suipian_six.png" class="bingo-xz"/>
+				<p class="bingo1-p2">快得能让事件变慢的<br />八核1.7GHz处理器</p>
+			</div>
+<!-----------------------------------------第七关--------------------------------------------->
+			<div class="seventh" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第七关  天王星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="h7">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d7">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo7">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得7/8碎片</p>
+				<img src="img/suipian_seven.png" class="bingo-xz"/>
+				<p class="bingo1-p2">轻松抓拍多动症患者的<br />PDAF快速相应对焦系统</p>
+			</div>
+<!-----------------------------------------第八关--------------------------------------------->	
+			<div class="eighth" style="display: none;">
+				<img src="img/music_off.png" class="nomusic"/>
+				<p>第八关  海王星</p>
+				<img src="img/one_pic1.png" class="sbxx1"/>
+				<!--大家找不同-->
+				<div class="zbt">
+					<img src="img/kuang_bg.png" class="kuang"/>
+					<!--找不同的框-->
+					<div class="haha" id="h8">
+						<!--生成请找js-->
+					</div>
+					<!--一堆大光头-->
+					<div class="haha" id="d8">
+						<!--生成请找js-->
+					</div>
+				</div>
+				<img src="img/one_pic2.png" id="first-st1"/>
+				<img src="img/one_pic3.png" id="first-st2"/>
+			</div>
+			<!--点击对了出现碎片-->
+			<div class="bingo8">
+				<img src="img/music_off.png" class="nomusic"/>
+				<img src="img/game_info_bg.png" class="bingo-k"/>
+				<p class="bingo1-p1">你获得8/8碎片</p>
+				<img src="img/suipian_eight.png" class="bingo-xz"/>
+				<p class="bingo1-p2">duang duang duang效果的<br />Function OS系统</p>
+			</div>
+		</div>		
+<!-----------------------------------------合体文字页面--------------------------------------------->	
+		<div class="fit-txt" style="display: none;">
+			<img src="img/music_on.png" class="musiczhuan"/>
+			<img src="img/one_pic1.png" class="sbxx1"/>
+			<img src="img/one_pic2.png" id="first-st1"/>
+			<img src="img/one_pic3.png" id="first-st2"/>
+			<div class="fit-txt1">
+				<pre id="fit-txt2">旺德福
+你已集齐徐峥分身
+Vivo X5pro碎片开始合体
+合体中
+...
+				</pre>
+				<pre id="fit-txt3">
+				
+				</pre>
+			
+			</div>
+				
+<!----------------------------------------------碎片------------------------------->
+
+			<div class="chipsss" style="display: none;">
+				<img src="img/txt1.png" alt="" class="sui1"/>
+				<img src="img/txt2.png" alt="" class="sui2"/>
+				<img src="img/txt3.png" alt="" class="sui3"/>
+				<img src="img/txt4.png" alt="" class="sui4"/>
+				<img src="img/txt5.png" alt="" class="sui5"/>
+				<img src="img/txt6.png" alt="" class="sui6"/>
+				<img src="img/txt7.png" alt="" class="sui7"/>
+				<img src="img/txt8.png" alt="" class="sui8"/>
+			</div>
+		</div>
+<!---------------------------------------对话框----------------------------------------->
+		<div class="vivo_mobile" style="display: none;">
+			<img src="img/vivo_mobile.png" alt="" />
+				<pre class="chayibu">成功合体					
+距离神秘力量
+还差最后一步
+请点击......
+				</pre>
+			<div class="divkuang">开始抽奖</div>
+			<div class="divkuang2">游戏说明</div>
+		</div>
+		<div class="shuoming" style="display: none;">
+			<img src="img/game_info_bg.png" alt="" />
+			<img src="img/game_info_bt.png" alt="" class="shanchude"/>
+			<div class="shuoming_txt1">找徐峥,送vivo</div>
+			<div class="shuoming_txt2">
+				<h2>游戏规则</h2>
+				<p>1.大范甘迪地方噶地方哈地方哈地方好地方好地方还挺好地方噶地方哈地方哈地方好地方好地方还挺好</p>
+				<p>2.大范甘迪地方噶地方哈地方哈地方好地方好地方还挺好地方噶地方哈地方哈地方好地方好地方还挺好</p>
+				<p>3.大范甘迪地方噶地方哈地方哈地方好地方好地方还挺好地方噶地方哈地方哈地方好地方好地方还挺好</p>
+				<p>4.大范甘迪地方噶地方哈地方哈地方好地方好地方还挺好地方噶地方哈地方哈地方好地方好地方还挺好</p>
+				<p>5.大范甘迪地方噶地方哈地方哈地方好地方好地方还挺好地方噶地方哈地方哈地方好地方好地方还挺好</p>
+				<h2>活动时间</h2>
+				<p>2015年9月28日至10月2日</p>
+			</div>
+		</div>
+		<div class="choujiang1" style="display: none;">
+			<img src="img/color_yan.png" alt="" />
+			<img src="img/xuzheng_succ_kuang.png" alt="" class="choujiang1_img"/>
+			<div class="congra">
+				恭喜你获得<br />
+				vivo X5pro一台
+			</div>
+			<div class="xingming1">姓名:<input type="text" class="xingming" /></div>
+			<div class="phone_num1">手机号码: <input type="text" class="phone_num"/></div>
+			<div class="tijiao1">提交信息</div>
+		</div>	
+		<script src="js/touch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/zhaocha.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			//取到多有文字的数组
+var jieshaoP = document.getElementsByClassName("js1");
+//console.log(jieshaoP[2]);
+//文字一行行的显示 
+var jsp = 0;
+var timerP = setInterval(function() {
+		jieshaoP[jsp].style.display = "block";
+		jsp++;
+		if (jsp >= jieshaoP.length) {
+			//当文字显示完清除定时器
+			clearInterval(timerP);
+		}
+	}, 600)
+	//徐峥超人动画
+$(document).ready(function() {
+	//自动更换图片
+	function showImg(val) {
+		//获取图片数量
+		var imgCount = $(".xz>img").length;
+		//显示索引为val的图片
+		$(".xz>img").hide();
+		$(".xz>img").eq(val).fadeIn(0);
+		if (num < (imgCount - 1)) {
+			num += 1;
+		} else {
+			num = 0;
+		}
+		//300毫秒后重新绑定图片    
+		setTimeout(function() {
+			showImg(num);
+		}, 200);
+	}
+	//加载图片
+	var num = 0;
+	showImg(num);
+});
+$(document).ready(function() {
+	//自动更换图片
+	function showImg(val) {
+		//获取图片数量
+		var imgCount = $(".xz2>img").length;
+		//显示索引为val的图片
+		$(".xz2>img").hide();
+		$(".xz2>img").eq(val).fadeIn(0);
+		if (num < (imgCount - 1)) {
+			num += 1;
+		} else {
+			num = 0;
+		}
+		//200毫秒后重新绑定图片    
+		setTimeout(function() {
+			showImg(num);
+		}, 200);
+	}
+	//加载图片
+	var num = 0;
+	showImg(num);
+});
+//徐峥超人
+var super1 = document.getElementsByClassName("xz")[0];
+var xzt = setInterval(function() {
+	super1.style.display = "none";
+}, 11000);
+var super2 = document.getElementsByClassName("xz2")[0];
+var xzt2 = setInterval(function() {
+	super2.style.display = "block";
+}, 11000);
+
+//vivo手机
+var vivo = document.getElementsByClassName("vivophone")[0];
+var vivo2 = setInterval(function() {
+	vivo.style.display = "block";
+}, 14000)
+
+//行星5
+var star5 = document.getElementsByClassName("star5")[0];
+var star6 = document.getElementsByClassName("star5-2")[0];
+var xingqiut = setInterval(function() {
+	star5.style.display = "none";
+	star6.style.display = "block";
+}, 11000);
+//------------------------------介绍和游戏界面的链接-----------------------------//
+$(".xingxing").click(function() {
+		$(".wrap_one").hide();
+		$(".playgame").show();
+		$(".first").show();
+	})
+	//-----------------------Game Start----------------------------//
+
+//随机函数
+function rand(min, max) {
+	return parseInt(Math.random() * (max - min)) + min;
+};
+//------------------------------徐峥随机出现的地方第一关-----------------------------//
+//生成4个框
+for (var i = 0; i < 4; i++) {
+	$("#d1").append("<img src='img/person_kuang.png' id='touxiang1'/>");
+}
+//生成4个包贝尔
+for (var i = 0; i < 4; i++) {
+	$("#d1-1").append("<img src='img/baobei.png' class='sj1-1'/>");
+}
+//徐峥随机出现
+var one = rand(0, 4);
+$(function() {
+	$(".sj1-1").eq(one).attr("src", "img/xuzheng.png");
+});
+$(".sj1-1").eq(one).click(function() {
+		$(".bingo1").show();
+	})
+	//------------------------------第一关和第二关的衔接-----------------------------//
+$(".bingo1").click(function() {
+		$(".bingo1").hide();
+		$(".first").hide();
+		$(".second").show();
+	})
+	//------------------------------徐峥随机出现的地方第二关-----------------------------//
+	//生成9个框
+for (var i = 0; i < 9; i++) {
+	$("#d2").append("<img src='img/person_kuang.png' id='touxiang2'/>");
+}
+//生成9个包贝尔
+for (var i = 0; i < 9; i++) {
+	$("#d2-1").append("<img src='img/baobei.png' class='sj2-1'/>");
+}
+//徐峥随机出现
+var two = rand(0, 9);
+$(function() {
+	$(".sj2-1").eq(two).attr("src", "img/xuzheng.png");
+})
+$(".sj2-1").eq(two).click(function() {
+		$(".bingo2").show();
+	})
+	//------------------------------第二关和第三关的衔接-----------------------------//
+$(".bingo2").click(function() {
+		$(".bingo2").hide();
+		$(".second").hide();
+		$(".third").show();
+	})
+	//------------------------------徐峥随机出现的地方第三关-----------------------------//
+	//生成16个框
+for (var i = 0; i < 16; i++) {
+	$("#d3").append("<img src='img/person_kuang.png' id='touxiang3'/>");
+}
+//生成16个包贝尔
+for (var i = 0; i < 16; i++) {
+	$("#d3-1").append("<img src='img/baobei.png' class='sj3-1'/>");
+}
+//徐峥随机出现
+var three = rand(0, 16);
+$(function() {
+	$(".sj3-1").eq(three).attr("src", "img/xuzheng.png");
+})
+$(".sj3-1").eq(three).click(function() {
+		$(".bingo3").show();
+	})
+	//------------------------------第三关和第四关的衔接-----------------------------//
+$(".bingo3").click(function() {
+		$(".bingo3").hide();
+		$(".third").hide();
+		$(".fourth").show();
+	})
+	//------------------------------徐峥随机出现的地方第四关-----------------------------//
+for (var i = 0; i < 25; i++) {
+	$("#d4").append("<img src='img/person_kuang.png' class='touxiang4'/>");
+}
+//生成25个包贝尔 
+for (var i = 0; i < 25; i++) {
+	$("#d4-1").append("<img src='img/baobei.png' class='sj4-1'/>");
+}
+//徐峥随机出现
+var four = rand(0, 25);
+$(function() {
+	$(".sj4-1").eq(four).attr("src", "img/xuzheng.png");
+})
+$(".sj4-1").eq(four).click(function() {
+		$(".bingo4").show();
+	})
+	//------------------------------第四关和第五关的衔接-----------------------------//
+$(".bingo4").click(function() {
+		$(".bingo4").hide();
+		$(".fourth").hide();
+		$(".fifth").show();
+	})
+	//------------------------------徐峥随机出现的地方第五关-----------------------------//
+	//生成25个框
+for (var i = 0; i < 25; i++) {
+	$("#h5").append("<img src='img/person_kuang.png' class='touxiang4'/>");
+}
+//生成25个包贝尔
+for (var i = 0; i < 25; i++) {
+	$("#d5").append("<img src='img/baobei.png' class='sj5-1'/>");
+}
+//空的数组
+var a = [];
+//生成五个不同的随机数
+while (a.length < 5) {
+	var num = rand(0, 25);
+	var bTest = true;
+	for (var i = 0; i < a.length; i++) {
+		if (num == a[i]) {
+			bTest = false;
+		}
+	}
+	//如果不重复，将这个随机数放进数组里面
+	if (bTest) {
+		a.push(num);
+	}
+}
+var five0 = a[0];
+var five1 = a[1];
+var five2 = a[2];
+var five3 = a[3];
+var five4 = a[4];
+//徐峥随机出现
+$(function() {
+	$(".sj5-1").eq(five0).attr("src", "img/tietou.png");
+	$(".sj5-1").eq(five1).attr("src", "img/tietou.png");
+	$(".sj5-1").eq(five2).attr("src", "img/tietou.png");
+	$(".sj5-1").eq(five3).attr("src", "img/tietou.png");
+	$(".sj5-1").eq(five4).attr("src", "img/xuzheng.png");
+})
+$(".sj5-1").eq(five4).click(function() {
+		$(".bingo5").show();
+	})
+	//------------------------------第五关和第六关的衔接-----------------------------//
+$(".bingo5").click(function() {
+		$(".bingo5").hide();
+		$(".fifth").hide();
+		$(".sixth").show();
+	})
+	//------------------------------徐峥随机出现的地方第六关-----------------------------//
+	//生成36个框
+for (var i = 0; i < 36; i++) {
+	$("#h6").append("<img src='img/person_kuang.png' class='touxiang5'/>");
+}
+//生成36个包贝尔
+for (var i = 0; i < 36; i++) {
+	$("#d6").append("<img src='img/baobei.png' class='sj6-1'/>");
+}
+var six = rand(0, 36);
+//随机生成徐峥
+$(function() {
+	$(".sj6-1").eq(six).attr("src", "img/xuzheng.png");
+})
+$(".sj6-1").eq(six).click(function() {
+		$(".bingo6").show();
+	})
+	//------------------------------第六关和第七关的衔接-----------------------------//
+$(".bingo6").click(function() {
+		$(".bingo6").hide();
+		$(".sixth").hide();
+		$(".seventh").show();
+	})
+	//------------------------------徐峥随机出现的地方第七关-----------------------------//
+	//生成36个框
+for (var i = 0; i < 36; i++) {
+	$("#h7").append("<img src='img/person_kuang.png' class='touxiang7'/>");
+}
+//生成36个包贝尔
+for (var i = 0; i < 36; i++) {
+	$("#d7").append("<img src='img/baobei.png' class='sj7-1'/>");
+}
+//随机生成徐峥
+//空的数组
+var b = [];
+//生成五个不同的随机数
+while (b.length < 6) {
+	var num = rand(0, 36);
+	var bTest = true;
+	for (var i = 0; i < b.length; i++) {
+		if (num == a[i]) {
+			bTest = false;
+		}
+	}
+	//如果不重复，将这个随机数放进数组里面
+	if (bTest) {
+		b.push(num);
+	}
+}
+var seven0 = b[0];
+var seven1 = b[1];
+var seven2 = b[2];
+var seven3 = b[3];
+var seven4 = b[4];
+var seven5 = b[5];
+//alert(b);
+$(function() {
+	$(".sj7-1").eq(seven0).attr("src", "img/tietou.png");
+	$(".sj7-1").eq(seven1).attr("src", "img/tietou.png");
+	$(".sj7-1").eq(seven2).attr("src", "img/tietou.png");
+	$(".sj7-1").eq(seven3).attr("src", "img/tietou.png");
+	$(".sj7-1").eq(seven4).attr("src", "img/tietou.png");
+	$(".sj7-1").eq(seven5).attr("src", "img/xuzheng.png");
+});
+$(".sj7-1").eq(seven5).click(function() {
+		$(".bingo7").show();
+	})
+	//------------------------------第七关和第八关的衔接-----------------------------//
+$(".bingo7").click(function() {
+		$(".bingo7").hide();
+		$(".seventh").hide();
+		$(".eighth").show();
+	})
+	//------------------------------徐峥随机出现的地方第八关-----------------------------//
+	//生成49个框
+for (var i = 0; i < 49; i++) {
+	$("#h8").append("<img src='img/person_kuang.png' class='touxiang8'/>");
+}
+//生成49个包贝尔
+for (var i = 0; i < 49; i++) {
+	$("#d8").append("<img src='img/baobei.png' class='sj8-1'/>");
+}
+//随机生成徐峥
+var eigth = rand(0, 49);
+$(function() {
+	$(".sj8-1").eq(eigth).attr("src", "img/xuzheng.png");
+})
+$(".sj8-1").eq(eigth).click(function() {
+		$(".bingo8").show();
+	})
+	//------------------------------第八关和合体文字的衔接-----------------------------//
+var fit = document.getElementsByClassName("fit-txt")[0];
+$(".bingo8").click(function() {
+	$(".bingo8").hide();
+	$(".eighth").hide();
+	$(".fit-txt").show();
+	if ($(".fit-txt").show()) {
+		var index = 0;
+		var msg = document.getElementById("fit-txt2").innerHTML;
+
+		function type() {
+			document.getElementById("fit-txt3").innerHTML = msg.substring(0, index++);
+		}
+		setInterval(type, 100);
+		var index = 0;
+		var msg = document.getElementById("fit-txt2").innerHTML;
+
+		function type() {
+			document.getElementById("fit-txt3").innerHTML = msg.substring(0, index++);
+		}
+		setInterval(type, 100);
+		var timer = setInterval(function() {
+			$(".fit-txt1").hide();
+			$(".chipsss").show();
+		}, 5000);
+		setInterval(function() {
+			clearInterval(timer);
+			$(".chipsss").hide();
+		}, 11000);
+		var timer1 = setInterval(function() {
+			$(".vivo_mobile").show();
+		}, 12000);
+
+		$(".divkuang").on("click", function() {
+			$(".vivo_mobile").hide();
+			$(".choujiang1").show();
+		});
+		$(".divkuang2").on("click", function() {
+			clearInterval(timer1);
+			$(".vivo_mobile").hide();
+			$(".shuoming").show();
+		});
+		$(".shanchude").on("click", function() {
+			$(".shuoming").hide();
+			$(".vivo_mobile").fadeIn();
+		});
+	}
+})
+
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+

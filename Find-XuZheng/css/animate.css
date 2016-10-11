@@ -1,0 +1,574 @@
+/*八个坑爹行星*/
+@-webkit-keyframes s10{
+	0%{
+		left: 45%;
+		top: 6%;
+	}
+	50%{
+		left: 45%;
+		top: 9%;
+	}
+	100%{
+		left: 45%;
+		top: 6%;
+	}
+}
+@-webkit-keyframes s5{
+	0%{
+		left: 0%;
+		top: 34%;
+	}
+	50%{
+		left: 5%;
+		top: 34%;
+	}
+	100%{
+		left: 0%;
+		top: 34%;
+	}
+}
+@-webkit-keyframes s11{
+	0%{
+		left: 78%;
+		top: 24%;
+	}
+	50%{
+		left: 74%;
+		top: 22%;
+	}
+	100%{
+		left: 78%;
+		top: 24%;
+	}
+}
+@-webkit-keyframes s4{
+	0%{
+		left: 60%;
+		top: 53%;
+	}
+	50%{
+		left: 64%;
+		top: 57%;
+	}
+	100%{
+		left: 60%;
+		top: 53%;
+	}
+}
+@-webkit-keyframes s6{
+	0%{
+		left: 34%;
+		top: 51%;
+	}
+	50%{
+		left: 30%;
+		top: 55%;
+	}
+	100%{
+		left: 34%;
+		top: 51%;
+	}
+}
+@-webkit-keyframes s7{
+	0%{
+		left: 40%;
+		top: 75%;
+	}
+	50%{
+		left: 35%;
+		top: 76%;
+	}
+	100%{
+		left: 40%;
+		top: 75%;
+	}
+}
+@-webkit-keyframes s8{
+	0%{
+		left: 71%;
+		top: 76%;
+	}
+	50%{
+		left: 66%;
+		top: 71%;
+	}
+	100%{
+		left: 71%;
+		top: 76%;
+	}
+}
+@-webkit-keyframes s9{
+	0%{
+		left: 37%;
+		top: 28%;
+	}
+	50%{
+		left: 41%;
+		top: 32%;
+	}
+	100%{
+		left: 37%;
+		top: 28%;
+	}
+}
+/*碎片爆炸动画*/
+@-webkit-keyframes c1{
+	0%{
+		right: -3%;
+		top: -2%;
+	}
+	25%{
+		right: -31%;
+    		top: -31%;
+    		transform: scale(0.7) rotate(61deg);
+	}
+	50%{
+		right: -31%;
+    		top: -31%;
+    		transform: scale(0.7) rotate(61deg);
+	}
+	75%{
+		right: -31%;
+    		top: -31%;
+    		transform: scale(0.7) rotate(61deg);
+	}
+	100%{
+		right: -40%;
+    		top: -15%;
+		transform: scale(0) rotate(90deg);
+	}
+}
+@-webkit-keyframes c2{
+	0%{
+		left: -4%;
+		top: -2%;
+	}
+	25%{
+		left: -43%;
+    		top: -24%;
+   	 	transform: scale(0.7) rotate(-20deg);
+	}
+	50%{
+		left: -43%;
+    		top: -24%;
+   	 	transform: scale(0.7) rotate(-20deg);
+	}
+	75%{
+		left: -43%;
+    		top: -24%;
+   	 	transform: scale(0.7) rotate(-20deg);
+	}
+	100%{
+		left: 10%;
+    		top: -40%;
+   	 	transform: scale(0) rotate(-90deg);
+	}
+}
+@-webkit-keyframes c3{
+	0%{
+		right: -3%;
+		top: 11%;
+	}
+	25%{
+		right: 9%;
+	    top: -20%;
+		transform: scale(0.7);
+	}
+	50%{
+		right: 9%;
+	    top: -20%;
+		transform: scale(0.7);
+	}
+	75%{
+		right: 9%;
+	    top: -20%;
+		transform: scale(0.7);
+	}
+	100%{
+		right: 14%;
+	    top: -2%;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes c4{
+	0%{
+		left: -4%;
+		top: 23.1%;
+	}
+	25%{
+		left: -45%;
+	    top: 21.1%;
+		transform: scale(0.7) rotate(58deg);
+	}
+	50%{
+		left: -45%;
+	    top: 21.1%;
+		transform: scale(0.7) rotate(58deg);
+	}
+	75%{
+		left: -45%;
+	    top: 21.1%;
+		transform: scale(0.7) rotate(58deg);
+	}
+	100%{
+		left: -50%;
+	    top: 5%;
+		transform: scale(0) rotate(58deg);
+	}
+	
+}
+@-webkit-keyframes c5{
+	0%{
+		left: 27%;
+		top: 23.9%;
+	}
+	25%{
+		left: 27%;
+	    top: 18.9%;
+		transform: scale(0.5);
+	}
+	50%{
+		left: 27%;
+	    top: 18.9%;
+		transform: scale(0.5);
+	}
+	75%{
+		left: 27%;
+	    top: 18.9%;
+		transform: scale(0.5);
+	}
+	100%{
+		left: 12%;
+	    top:35%;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes c6{
+	0%{
+		right: -3%;
+		top: 44%;
+	}
+	25%{
+		right: -42%;
+	    top: 19%;
+		transform: scale(0.7);
+	}
+	50%{
+		right: -42%;
+	    top: 19%;
+		transform: scale(0.7);
+	}
+	75%{
+		right: -42%;
+	    top: 19%;
+		transform: scale(0.7);
+	}
+	100%{
+		right: -22%;
+	    top: 42%;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes c7{
+	0%{
+		left: -4%;
+		top: 62%;
+	}
+	25%{
+		left: -20%;
+	    top: 68%;
+		transform: scale(0.6);
+	}
+	50%{
+		left: -20%;
+	    top: 68%;
+		transform: scale(0.6);
+	}
+	75%{
+		left: -20%;
+	    top: 68%;
+		transform: scale(0.6);
+	}
+	100%{
+		left: 2%;
+	    top: 75%;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes c8{
+	0%{
+		right: -3%;
+		top: 72.1%;
+	}
+	25%{
+		right: -39%;
+	    top: 72.1%;
+		transform: scale(0.6);
+	}
+	50%{
+		right: -39%;
+	    top: 72.1%;
+		transform: scale(0.6);
+	}
+	75%{
+		right: -39%;
+	    top: 72.1%;
+		transform: scale(0.6);
+	}
+	100%{
+		right: -45%;
+	    top: 85%;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes gtxz{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/*碎片的出现*/
+@-webkit-keyframes suipian{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/*碎片的变化*/
+@-webkit-keyframes change{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+/*星球消失*/
+
+@-webkit-keyframes starOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+/*手机旋转动画*/
+
+@-webkit-keyframes zoomIn {
+	from {
+		opacity: 0;
+		transform: scale(0) rotateZ(0deg);
+	}
+	to {
+		transform: scale(1) rotateZ(360deg);
+		opacity: 1;
+	}
+}
+
+
+/*徐峥超人1动画*/
+
+@-webkit-keyframes super1 {
+	from {
+		left: 90%;
+		top: 54%;
+	}
+	to {
+		left: 0%;
+		top: 35%;
+	}
+}
+
+
+/*徐峥超人2动画*/
+
+@-webkit-keyframes super2 {
+	from {
+		left: 0%;
+		top: 35%;
+	}
+	to {
+		left: -100%;
+		top: 16%;
+	}
+}
+/*文字消失的动画*/
+
+@-webkit-keyframes txt {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+
+/*音乐小图标的动画*/
+
+@-webkit-keyframes music {
+	from {
+		-webkit-transform: rotateZ(0deg);
+		-ms-transform: rotateZ(0deg);
+		-o-transform: rotateZ(0deg);
+		transform: rotateZ(0deg);
+	}
+	to {
+		-webkit-transform: rotateZ(360deg);
+		-ms-transform: rotateZ(360deg);
+		-o-transform: rotateZ(360deg);
+		transform: rotateZ(360deg);
+	}
+}
+/*行星6动画*/
+
+@-webkit-keyframes star6 {
+	0% {
+		left: 10%;
+		top: 75%;
+	}
+	50% {
+		left: 10%;
+		top: 74%;
+	}
+	100% {
+		left: 10%;
+		top: 75%;
+	}
+}
+/*行星5动画*/
+
+@-webkit-keyframes star5 {
+	from {
+		left: -50%;
+		top: 75%;
+	}
+	to {
+		left: 10%;
+		top: 75%;
+	}
+}
+/*星球4的动画*/
+
+@-webkit-keyframes star4 {
+	0% {
+		left: 72%;
+		top: 20%;
+	}
+	20% {
+		left: 72%;
+		top: 21%;
+	}
+	40% {
+		left: 72%;
+		top: 22%;
+	}
+	60% {
+		left: 71%;
+		top: 21%;
+	}
+	80% {
+		left: 70%;
+		top: 22%;
+	}
+	100% {
+		left: 70%;
+		top: 23%;
+	}
+}
+/*星球3的动画*/
+
+@-webkit-keyframes star3 {
+	0% {
+		left: 58%;
+		top: 75%;
+	}
+	20% {
+		left: 59%;
+		top: 76%;
+	}
+	40% {
+		left: 60%;
+		top: 75%;
+	}
+	60% {
+		left: 61%;
+		top: 74%;
+	}
+	80% {
+		left: 61%;
+		top: 74%;
+	}
+	100% {
+		left: 60%;
+		top: 73%;
+	}
+}
+/*行星2的动画*/
+
+@-webkit-keyframes star2 {
+	0% {
+		left: 20%;
+		top: 20%;
+	}
+	20% {
+		left: 22%;
+		top: 22%;
+	}
+	40% {
+		left: 20%;
+		top: 20%;
+	}
+	60% {
+		left: 78%;
+		top: 28%;
+	}
+	80% {
+		left: 78%;
+		top: 30%;
+	}
+	100% {
+		left: 78%;
+		top: 28%;
+	}
+}
+@-webkit-keyframes s1{
+	from{
+		right: -31%;
+    		top: -31%;
+	}
+	to{
+		right: -11%;
+		top: -11%;
+		transform: scale(0) rotateZ(90deg);
+	}
+}
+/*下面的文字 (找徐峥 启动能量)*/
+@-webkit-keyframes tBottom{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
